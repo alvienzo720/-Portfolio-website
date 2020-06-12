@@ -5,10 +5,12 @@ body {
 .heading{
   height:150px;
   background-color: #5b5b6e;
+  font-family:fantasy;
 }
 .footer{
   height: 100px;
   background-color: #5b5b6e;
+  font-family:fantasy;
 }
 h1{font-size: 60px;}
 h2{font-size: 20px}
@@ -16,9 +18,11 @@ h3{font: 10px;}
 h1,h2,h3 {
   text-align:center;
   font-weight: 400;
+  font-family:fantasy;
 }
 p{font-size: 20px;
-  text-align: center;}
+  text-align: center;
+font-family:fantasy;}
 .img{
   height: 500px;
   position: center;
@@ -27,12 +31,18 @@ p{font-size: 20px;
 
 }
 .profile{
-  text-align: center;;
+  text-align: center;
+  font-family:fantasy;
 }
 li{font-size: 20px;
   text-align: center;
+  font-family:fantasy;
 }
 .horizontal{
   padding: 10px;
   color:#5b5b6e;
 }
+a:link    { color: green;  }
+a:visited { color: purple;   }
+a:hover   { color: yellow; }
+a:active  { color: red;  }
