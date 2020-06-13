@@ -27,10 +27,12 @@ p{font-size: 20px;
 font-family:fantasy;}
 .img{
   height: 500px;
-  position: center;
   border-radius: 300px;
   margin-top: 20px;
-  margin-left: 420px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .profile{
