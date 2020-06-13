@@ -1,44 +1,50 @@
-
+/* body css with image */
 body {
   background-image: url(images/email-pattern.png);
 }
+/* heading css */
 .heading{
   height:150px;
-  background-color: #5b5b6e;
+  background-color: #0f807c;
   font-family:fantasy;
 }
 
-}
+/* footer  css */
 .footer{
-  height: 100px;
-  background-color: #5b5b6e;
-  font-family:fantasy;
+  height: 150px;
+  background-color: #0f807c;
 }
+/* headings css  */
 h1{font-size: 60px;}
-h2{font-size: 20px}
-h3{font: 10px;}
+h2{font-size: 30px}
+h3{font: 20px;}
 h1,h2,h3 {
   text-align:center;
   font-weight: 400;
-  font-family:fantasy;
+  font-family:monospace;
 }
+/* paragraph css */
 p{font-size: 20px;
   text-align: center;
-font-family:fantasy;}
+font-family:fantasy;
+line-height: 1.5}
+/* imgage csss */
 .img{
   height: 500px;
   border-radius: 300px;
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
 
 }
+/*profile container css  */
 .profile{
   text-align: center;
   font-family:fantasy;
 }
+/* list items css */
 li{font-size: 20px;
   text-align: center;
   font-family:fantasy;
@@ -47,7 +53,8 @@ li{font-size: 20px;
   padding: 10px;
   color:#5b5b6e;
 }
+/* links css */
 a:link    { color: green;  }
-a:visited { color: purple;   }
-a:hover   { color: yellow; }
-a:active  { color: red;  }
+a:visited { color: red;   }
+a:hover   { color: blue; }
+a:active  { color: maroon;  }
