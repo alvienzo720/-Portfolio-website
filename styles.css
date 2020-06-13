@@ -7,6 +7,8 @@ body {
   background-color: #5b5b6e;
   font-family:fantasy;
 }
+
+}
 .footer{
   height: 100px;
   background-color: #5b5b6e;
@@ -28,6 +30,7 @@ font-family:fantasy;}
   position: center;
   border-radius: 300px;
   margin-top: 20px;
+  margin-left: 500px;
 
 }
 .profile{
